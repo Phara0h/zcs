@@ -25,7 +25,7 @@ npm install zcs
     validZip,
     getCitiesNameByState,
     getCitiesNameAndPopulationByState 
-  } = require('zcs')
+  } = require('zcs').zcs();
      // optional state as second param
     console.log(getByCityState('Orlando'))
 
